@@ -127,8 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Keeperr.h" />
+    <ClInclude Include="io.h" />
+    <ClInclude Include="Keeper.h" />
     <ClInclude Include="Train.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="io.cpp" />
+    <ClCompile Include="Keeper.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
